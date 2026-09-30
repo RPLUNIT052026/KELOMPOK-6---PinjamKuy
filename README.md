@@ -65,19 +65,19 @@ flowchart LR
 <table align="center">
   <tr>
     <td align="center" width="300">
-      <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Imam&size=200&radius=50&backgroundColor=b6e3f4" width="180" alt="Avatar Imam" />
+      <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Imam&size=200&radius=50&backgroundColor=b6e3f4&top=shortFlat&facialHairProbability=0" width="180" alt="Avatar Imam" />
       <h2>Asrianda Imam</h2>
       <img src="https://img.shields.io/badge/NIM-240504127-2563eb?style=for-the-badge" alt="NIM" /><br/><br/>
       <a href="https://github.com/USERNAME_IMAM"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Imam" /></a>
     </td>
     <td align="center" width="300">
-      <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Isfa&size=200&radius=50&backgroundColor=c0f0c8" width="180" alt="Avatar Isfa" />
+      <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Isfa&size=200&radius=50&backgroundColor=c0f0c8&top=theCaesar&facialHairProbability=0" width="180" alt="Avatar Isfa" />
       <h2>Muhammad Isfa</h2>
       <img src="https://img.shields.io/badge/NIM-240504130-16a34a?style=for-the-badge" alt="NIM" /><br/><br/>
       <a href="https://github.com/USERNAME_ISFA"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Isfa" /></a>
     </td>
     <td align="center" width="300">
-      <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Wibi&size=200&radius=50&backgroundColor=ffd5a8" width="180" alt="Avatar Wibi" />
+      <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Wibi&size=200&radius=50&backgroundColor=ffd5a8&top=shortWaved&facialHairProbability=0" width="180" alt="Avatar Wibi" />
       <h2>Wibi Hidayat</h2>
       <img src="https://img.shields.io/badge/NIM-240504146-f97316?style=for-the-badge" alt="NIM" /><br/><br/>
       <a href="https://github.com/WibiHidayat"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Wibi" /></a>
@@ -88,6 +88,7 @@ flowchart LR
 <p align="center">
   <sub>Program Studi Informatika · Fakultas Sains dan Teknologi · Universitas Samudra</sub>
 </p>
+
 ---
 
 <h2 align="center">🎨 Wireframe Desktop</h2>
