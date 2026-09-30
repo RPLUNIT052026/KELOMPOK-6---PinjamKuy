@@ -57,17 +57,14 @@ flowchart LR
     <td align="center" width="260">
       <h3>👨‍💻<br/>Asrianda Imam</h3>
       <b>NIM 240504127</b><br/>
-      <sub>Fokus Sprint 1:<br/>Registrasi dan Login</sub>
     </td>
     <td align="center" width="260">
       <h3>👨‍💻<br/>Muhammad Isfa</h3>
       <b>NIM 240504130</b><br/>
-      <sub>Fokus Sprint 1:<br/>Tambah Barang, Katalog, dan Detail</sub>
     </td>
     <td align="center" width="260">
       <h3>👨‍💻<br/>Wibi Hidayat</h3>
       <b>NIM 240504146</b><br/>
-      <sub>Fokus Sprint 1:<br/>ERD dan Wireframe</sub>
     </td>
   </tr>
 </table>
