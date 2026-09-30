@@ -79,17 +79,15 @@ flowchart LR
     <td align="center" width="300">
       <img src="https://api.dicebear.com/9.x/avataaars/png?seed=Wibi&size=200&radius=50&backgroundColor=ffd5a8" width="180" alt="Avatar Wibi" />
       <h2>Wibi Hidayat</h2>
-
----
-<h2 align="center">📄 Dokumen Sprint 1</h2>
+      <img src="https://img.shields.io/badge/NIM-240504146-f97316?style=for-the-badge" alt="NIM" /><br/><br/>
+      <a href="https://github.com/WibiHidayat"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Wibi" /></a>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <a href="sprint-1/sprint-1.md">📋 Backlog</a> ·
-  <a href="sprint-1/arsitektur-sistem.md">🏗️ Arsitektur</a> ·
-  <a href="sprint-1/erd.md">🗄️ ERD</a> ·
-  <a href="sprint-1/flowchart.md">🔀 Flowchart</a>
+  <sub>Program Studi Informatika · Fakultas Sains dan Teknologi · Universitas Samudra</sub>
 </p>
-
 ---
 
 <h2 align="center">🎨 Wireframe Desktop</h2>
