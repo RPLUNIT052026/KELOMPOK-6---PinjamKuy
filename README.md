@@ -62,22 +62,32 @@ flowchart LR
 
 <h2 align="center">👥 Tim Kami</h2>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=800&color=2563EB&center=true&vCenter=true&width=500&lines=Tiga+mahasiswa%2C+satu+tujuan+%F0%9F%8E%AF;Belajar%2C+bangun%2C+dan+berkembang+bareng+%F0%9F%9A%80" alt="Tagline tim" />
+</p>
+
 <table align="center">
   <tr>
-    <td align="center" width="260">
-      <img src="https://ui-avatars.com/api/?name=Asrianda+Imam&size=120&background=2563eb&color=fff&bold=true&rounded=true" width="110" alt="Asrianda Imam" /><br/><br/>
-      <b>Asrianda Imam</b><br/>
-      <code>240504127</code><br/>
+    <td align="center" width="290">
+      <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3&height=90&section=header&text=Asrianda%20Imam&fontSize=24&fontColor=ffffff" width="270" alt="Asrianda Imam" /><br/>
+      <img src="https://ui-avatars.com/api/?name=Asrianda+Imam&size=120&background=2563eb&color=fff&bold=true&rounded=true" width="110" alt="Foto Imam" /><br/><br/>
+      <img src="https://img.shields.io/badge/NIM-240504127-2563eb?style=for-the-badge" alt="NIM" /><br/>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=800&color=2563EB&center=true&vCenter=true&width=260&lines=Mahasiswa+Informatika+%F0%9F%8E%93;Universitas+Samudra" alt="Prodi" /><br/>
+      <a href="https://github.com/USERNAME_IMAM"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Imam" /></a>
     </td>
-    <td align="center" width="260">
-      <img src="https://ui-avatars.com/api/?name=Muhammad+Isfa&size=120&background=16a34a&color=fff&bold=true&rounded=true" width="110" alt="Muhammad Isfa" /><br/><br/>
-      <b>Muhammad Isfa</b><br/>
-      <code>240504130</code><br/>
+    <td align="center" width="290">
+      <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,14&height=90&section=header&text=Muhammad%20Isfa&fontSize=24&fontColor=ffffff" width="270" alt="Muhammad Isfa" /><br/>
+      <img src="https://ui-avatars.com/api/?name=Muhammad+Isfa&size=120&background=16a34a&color=fff&bold=true&rounded=true" width="110" alt="Foto Isfa" /><br/><br/>
+      <img src="https://img.shields.io/badge/NIM-240504130-16a34a?style=for-the-badge" alt="NIM" /><br/>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=800&color=16A34A&center=true&vCenter=true&width=260&lines=Mahasiswa+Informatika+%F0%9F%8E%93;Universitas+Samudra" alt="Prodi" /><br/>
+      <a href="https://github.com/USERNAME_ISFA"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Isfa" /></a>
     </td>
-    <td align="center" width="260">
-      <img src="https://ui-avatars.com/api/?name=Wibi+Hidayat&size=120&background=f97316&color=fff&bold=true&rounded=true" width="110" alt="Wibi Hidayat" /><br/><br/>
-      <b>Wibi Hidayat</b><br/>
-      <code>240504146</code><br/>
+    <td align="center" width="290">
+      <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11&height=90&section=header&text=Wibi%20Hidayat&fontSize=24&fontColor=ffffff" width="270" alt="Wibi Hidayat" /><br/>
+      <img src="https://ui-avatars.com/api/?name=Wibi+Hidayat&size=120&background=f97316&color=fff&bold=true&rounded=true" width="110" alt="Foto Wibi" /><br/><br/>
+      <img src="https://img.shields.io/badge/NIM-240504146-f97316?style=for-the-badge" alt="NIM" /><br/>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=260&lines=Mahasiswa+Informatika+%F0%9F%8E%93;Universitas+Samudra" alt="Prodi" /><br/>
+      <a href="https://github.com/WibiHidayat"><img src="https://img.shields.io/badge/GitHub-Profil-181717?style=for-the-badge&logo=github" alt="GitHub Wibi" /></a>
     </td>
   </tr>
 </table>
@@ -87,7 +97,16 @@ flowchart LR
 </p>
 
 ---
+<h2 align="center">📄 Dokumen Sprint 1</h2>
 
+<p align="center">
+  <a href="sprint-1/sprint-1.md">📋 Backlog</a> ·
+  <a href="sprint-1/arsitektur-sistem.md">🏗️ Arsitektur</a> ·
+  <a href="sprint-1/erd.md">🗄️ ERD</a> ·
+  <a href="sprint-1/flowchart.md">🔀 Flowchart</a>
+</p>
+
+---
 
 <h2 align="center">🎨 Wireframe Desktop</h2>
 
