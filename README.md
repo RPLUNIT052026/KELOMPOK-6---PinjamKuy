@@ -68,19 +68,16 @@ flowchart LR
       <img src="https://ui-avatars.com/api/?name=Asrianda+Imam&size=120&background=2563eb&color=fff&bold=true&rounded=true" width="110" alt="Asrianda Imam" /><br/><br/>
       <b>Asrianda Imam</b><br/>
       <code>240504127</code><br/>
-      <sub>🔐 Registrasi dan Login</sub>
     </td>
     <td align="center" width="260">
       <img src="https://ui-avatars.com/api/?name=Muhammad+Isfa&size=120&background=16a34a&color=fff&bold=true&rounded=true" width="110" alt="Muhammad Isfa" /><br/><br/>
       <b>Muhammad Isfa</b><br/>
       <code>240504130</code><br/>
-      <sub>📦 Tambah Barang, Katalog, Detail</sub>
     </td>
     <td align="center" width="260">
       <img src="https://ui-avatars.com/api/?name=Wibi+Hidayat&size=120&background=f97316&color=fff&bold=true&rounded=true" width="110" alt="Wibi Hidayat" /><br/><br/>
       <b>Wibi Hidayat</b><br/>
       <code>240504146</code><br/>
-      <sub>🗄️ ERD dan Wireframe</sub>
     </td>
   </tr>
 </table>
