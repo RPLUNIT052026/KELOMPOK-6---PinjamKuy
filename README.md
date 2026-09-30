@@ -1,70 +1,86 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=220&section=header&text=PinjamKuy&fontSize=72&fontColor=ffffff&animation=fadeIn&desc=Pinjam%20apa%20aja%2C%20jadi%20gampang!&descSize=20&descAlignY=72" alt="PinjamKuy banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=PinjamKuy&fontSize=80&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Platform%20Peminjaman%20Barang%20Online&descSize=22&descAlignY=60" alt="PinjamKuy banner" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Sprint%201-2563eb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Mata%20Kuliah-RPL-16a34a?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Kelompok-6-f97316?style=for-the-badge" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=700&lines=Pinjam+apa+aja%2C+jadi+gampang!+%F0%9F%9A%80;Punya+barang+nganggur%3F+Pinjamkan!+%F0%9F%93%A6;Butuh+barang+sekali+pakai%3F+Pinjam+aja!+%F0%9F%9B%92;Dibuat+oleh+Kelompok+6+-+RPL+%F0%9F%92%BB" alt="Typing animation" />
 </p>
 
 <p align="center">
-  <b>Platform peminjaman barang online untuk mahasiswa dan masyarakat.</b><br/>
-  Punya barang yang jarang dipakai? Pinjamkan. Butuh barang cuma sekali? Pinjam saja.
+  <img src="https://img.shields.io/badge/Status-Sprint%201-2563eb?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/Mata%20Kuliah-RPL-16a34a?style=for-the-badge&logo=bookstack&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kelompok-6-f97316?style=for-the-badge&logo=teamspeak&logoColor=white" />
+  <img src="https://img.shields.io/badge/Universitas-Samudra-dc2626?style=for-the-badge&logo=googleclassroom&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=WibiHidayat-PinjamKuy&label=Pengunjung&color=2563eb&style=flat-square" alt="Pengunjung" />
 </p>
 
 ---
 
-## 📖 Tentang PinjamKuy
+<h2 align="center">📖 Tentang PinjamKuy</h2>
 
-Banyak orang butuh barang hanya untuk sekali pakai, seperti **kamera, tenda, proyektor, atau buku kuliah**. Membelinya terasa boros, sementara di sisi lain banyak barang menganggur di rumah orang lain.
-
-**PinjamKuy** mempertemukan keduanya. Alurnya mirip marketplace: ada katalog, pencarian, dan pengajuan, tetapi barangnya **dipinjam, bukan dibeli**.
-
----
-
-## ✨ Fitur Utama
-
-| | Fitur | Deskripsi |
-|---|-------|-----------|
-| 🔐 | **Akun Pengguna** | Registrasi, login, dan logout yang aman |
-| 📦 | **Katalog Barang** | Jelajahi semua barang yang bisa dipinjam |
-| 🔍 | **Pencarian dan Filter** | Temukan barang berdasarkan nama dan kategori |
-| 📝 | **Pengajuan Pinjam** | Pilih tanggal, pemilik menyetujui atau menolak |
-| 💬 | **Chat** | Ngobrol langsung dengan pemilik barang |
-| ⭐ | **Ulasan dan Rating** | Bangun kepercayaan antar pengguna |
+<p align="center">
+  Banyak orang butuh barang hanya untuk sekali pakai, seperti <b>kamera, tenda, proyektor, atau buku kuliah</b>.<br/>
+  Membelinya terasa boros, sementara banyak barang menganggur di rumah orang lain.<br/><br/>
+  <b>PinjamKuy</b> mempertemukan keduanya. Alurnya mirip marketplace, tetapi barangnya <b>dipinjam, bukan dibeli</b>. 🤝
+</p>
 
 ---
 
-## 🔄 Alur Peminjaman
+<h2 align="center">✨ Fitur Utama</h2>
+
+<table align="center">
+  <tr>
+    <td align="center" width="180">🔐<br/><b>Akun Pengguna</b><br/><sub>Registrasi dan login aman</sub></td>
+    <td align="center" width="180">📦<br/><b>Katalog Barang</b><br/><sub>Jelajahi semua barang</sub></td>
+    <td align="center" width="180">🔍<br/><b>Cari dan Filter</b><br/><sub>Temukan barang cepat</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="180">📝<br/><b>Pengajuan Pinjam</b><br/><sub>Pilih tanggal, tunggu persetujuan</sub></td>
+    <td align="center" width="180">💬<br/><b>Chat</b><br/><sub>Ngobrol dengan pemilik</sub></td>
+    <td align="center" width="180">⭐<br/><b>Ulasan</b><br/><sub>Rating dan komentar</sub></td>
+  </tr>
+</table>
+
+---
+
+<h2 align="center">🔄 Alur Peminjaman</h2>
 
 ```mermaid
 flowchart LR
-    A([Cari Barang]) --> B[Ajukan Pinjam]
+    A([🔍 Cari Barang]) --> B[📝 Ajukan Pinjam]
     B --> C{Pemilik Setuju?}
-    C -- Ya --> D[Barang Dipakai]
+    C -- Ya --> D[📦 Barang Dipakai]
     C -- Tidak --> A
-    D --> E[Kembalikan]
-    E --> F([Beri Ulasan])
+    D --> E[↩️ Kembalikan]
+    E --> F([⭐ Beri Ulasan])
 ```
 
 ---
 
-## 👥 Tim Kami
+<h2 align="center">👥 Tim Kami</h2>
 
 <table align="center">
   <tr>
     <td align="center" width="260">
-      <h3>👨‍💻<br/>Asrianda Imam</h3>
-      <b>NIM 240504127</b><br/>
+      <img src="https://ui-avatars.com/api/?name=Asrianda+Imam&size=120&background=2563eb&color=fff&bold=true&rounded=true" width="110" alt="Asrianda Imam" /><br/><br/>
+      <b>Asrianda Imam</b><br/>
+      <code>240504127</code><br/>
+      <sub>🔐 Registrasi dan Login</sub>
     </td>
     <td align="center" width="260">
-      <h3>👨‍💻<br/>Muhammad Isfa</h3>
-      <b>NIM 240504130</b><br/>
+      <img src="https://ui-avatars.com/api/?name=Muhammad+Isfa&size=120&background=16a34a&color=fff&bold=true&rounded=true" width="110" alt="Muhammad Isfa" /><br/><br/>
+      <b>Muhammad Isfa</b><br/>
+      <code>240504130</code><br/>
+      <sub>📦 Tambah Barang, Katalog, Detail</sub>
     </td>
     <td align="center" width="260">
-      <h3>👨‍💻<br/>Wibi Hidayat</h3>
-      <b>NIM 240504146</b><br/>
+      <img src="https://ui-avatars.com/api/?name=Wibi+Hidayat&size=120&background=f97316&color=fff&bold=true&rounded=true" width="110" alt="Wibi Hidayat" /><br/><br/>
+      <b>Wibi Hidayat</b><br/>
+      <code>240504146</code><br/>
+      <sub>🗄️ ERD dan Wireframe</sub>
     </td>
   </tr>
 </table>
@@ -75,29 +91,45 @@ flowchart LR
 
 ---
 
+<h2 align="center">📄 Dokumen Sprint 1</h2>
 
-## 🎨 Wireframe Desktop
+<details open>
+<summary><b>📂 Klik untuk melihat / menyembunyikan daftar dokumen</b></summary>
+<br/>
 
-<img src="sprint-1/wireframe-desktop.svg" alt="Wireframe Desktop PinjamKuy" width="85%" />
+| Dokumen | Isi |
+|---------|-----|
+| [📋 Product dan Sprint Backlog](sprint-1/sprint-1.md) | Daftar fitur, prioritas, dan pembagian tugas |
+| [🏗️ Arsitektur Sistem](sprint-1/arsitektur-sistem.md) | Struktur client-server 3 lapis |
+| [🗄️ ERD Database](sprint-1/erd.md) | Rancangan tabel dan relasinya |
+| [🔀 Flowchart](sprint-1/flowchart.md) | Alur login, peminjaman, dan tambah barang |
+| [🎨 Wireframe Desktop](sprint-1/wireframe-desktop.svg) | Rancangan tampilan halaman |
+
+</details>
+
 ---
 
-## 🛠️ Teknologi
+<h2 align="center">🎨 Wireframe Desktop</h2>
+
+<details>
+<summary><b>🖼️ Klik untuk melihat wireframe</b></summary>
+<br/>
+<p align="center">
+  <img src="sprint-1/wireframe-desktop.svg" alt="Wireframe Desktop PinjamKuy" width="85%" />
+</p>
+</details>
+
+---
+
+<h2 align="center">🛠️ Teknologi</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,php,mysql,git,github,vscode&perline=9" alt="Teknologi" />
 </p>
 
 ---
 
-## 🗺️ Roadmap
+<h2 align="center">🗺️ Roadmap</h2>
 
 | Sprint | Target | Status |
 |--------|--------|--------|
@@ -109,10 +141,13 @@ flowchart LR
 ---
 
 <p align="center">
-  <i>Dibuat dengan ☕ dan semangat oleh Kelompok 6</i><br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=4000&pause=800&color=16A34A&center=true&vCenter=true&width=500&lines=Terima+kasih+sudah+berkunjung!+%F0%9F%99%8F;Salam+hangat%2C+Kelompok+6+%F0%9F%92%99" alt="Footer typing" />
+</p>
+
+<p align="center">
   <b>PinjamKuy © 2026</b>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18&height=100&section=footer" alt="footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" alt="footer" />
 </p>
