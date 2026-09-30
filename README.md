@@ -81,10 +81,7 @@ flowchart LR
 
 ## 🎨 Wireframe Desktop
 
-<p align="center">
-  <img src="wireframe-desktop.svg" alt="Wireframe Desktop PinjamKuy" width="85%" />
-</p>
-
+<img src="sprint-1/wireframe-desktop.svg" alt="Wireframe Desktop PinjamKuy" width="85%" />
 ---
 
 ## 🛠️ Teknologi
