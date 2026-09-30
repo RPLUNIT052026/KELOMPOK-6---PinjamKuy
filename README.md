@@ -91,23 +91,6 @@ flowchart LR
 
 ---
 
-<h2 align="center">📄 Dokumen Sprint 1</h2>
-
-<details open>
-<summary><b>📂 Klik untuk melihat / menyembunyikan daftar dokumen</b></summary>
-<br/>
-
-| Dokumen | Isi |
-|---------|-----|
-| [📋 Product dan Sprint Backlog](sprint-1/sprint-1.md) | Daftar fitur, prioritas, dan pembagian tugas |
-| [🏗️ Arsitektur Sistem](sprint-1/arsitektur-sistem.md) | Struktur client-server 3 lapis |
-| [🗄️ ERD Database](sprint-1/erd.md) | Rancangan tabel dan relasinya |
-| [🔀 Flowchart](sprint-1/flowchart.md) | Alur login, peminjaman, dan tambah barang |
-| [🎨 Wireframe Desktop](sprint-1/wireframe-desktop.svg) | Rancangan tampilan halaman |
-
-</details>
-
----
 
 <h2 align="center">🎨 Wireframe Desktop</h2>
 
