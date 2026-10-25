@@ -4,55 +4,8 @@
 
 ## Diagram
 
-```mermaid
-%%{init: {"theme": "base", "flowchart": {"curve": "linear", "nodeSpacing": 25, "rankSpacing": 80}, "themeVariables": {"fontFamily": "Arial", "lineColor": "#888888"}}}%%
-flowchart LR
-    PG["O<br>/#124;#92;<br>/ #92;<br>Pengguna"]
-    PM["O<br>/#124;#92;<br>/ #92;<br>Peminjam"]
-    PB["O<br>/#124;#92;<br>/ #92;<br>Pemilik Barang"]
-    AD["O<br>/#124;#92;<br>/ #92;<br>Admin"]
+![Uploading use-case-pinjamkuy.png…]()
 
-    PM -->|"generalisasi"| PG
-    PB -->|"generalisasi"| PG
-
-    subgraph SISTEM["Sistem Website PinjamKuy"]
-        direction TB
-        subgraph UMUM["Fitur Pengguna"]
-            UC1(["Registrasi"])
-            UC2(["Login dan Logout"])
-            UC3(["Lihat dan Cari Barang"])
-            UC4(["Lihat Riwayat Peminjaman"])
-            UC5(["Chat"])
-        end
-        subgraph PINJAM["Fitur Peminjam"]
-            UC6(["Ajukan Peminjaman"])
-            UC7(["Beri Ulasan dan Rating"])
-        end
-        subgraph PEMILIK["Fitur Pemilik Barang"]
-            UC8(["Kelola Barang"])
-            UC9(["Setujui atau Tolak Pengajuan"])
-            UC10(["Konfirmasi Pengembalian"])
-        end
-        subgraph ADMIN["Fitur Admin"]
-            UC11(["Kelola Pengguna"])
-            UC12(["Kelola Kategori"])
-        end
-    end
-
-    PG --- UMUM
-    PM --- PINJAM
-    PB --- PEMILIK
-    AD --- ADMIN
-
-    classDef actor fill:transparent,stroke:transparent,color:#EEEEEE,font-family:monospace,font-weight:bold
-    classDef usecase fill:#1F2D16,stroke:#739A36,color:#EEEEEE
-    classDef group fill:#181818,stroke:#4A6324,color:#CCCCCC,stroke-dasharray:4 3
-
-    class PG,PM,PB,AD actor
-    class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8,UC9,UC10,UC11,UC12 usecase
-    class UMUM,PINJAM,PEMILIK,ADMIN group
-    style SISTEM fill:#121212,stroke:#739A36,color:#EEEEEE,stroke-width:2px
-```
 
 > Mermaid tidak punya diagram use case bawaan, jadi aktor dan use case digambar dengan flowchart. Garis lurus adalah hubungan aktor dengan use case, garis putus-putus adalah relasi `include` dan `extend`.
 
