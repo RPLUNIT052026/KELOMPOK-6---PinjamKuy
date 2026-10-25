@@ -7,10 +7,10 @@
 ```mermaid
 %%{init: {"theme": "base", "flowchart": {"curve": "linear", "nodeSpacing": 25, "rankSpacing": 80}, "themeVariables": {"fontFamily": "Arial", "lineColor": "#888888"}}}%%
 flowchart LR
-    PG(["Pengguna"])
-    PM(["Peminjam"])
-    PB(["Pemilik Barang"])
-    AD(["Admin"])
+    PG["O<br>/#124;#92;<br>/ #92;<br>Pengguna"]
+    PM["O<br>/#124;#92;<br>/ #92;<br>Peminjam"]
+    PB["O<br>/#124;#92;<br>/ #92;<br>Pemilik Barang"]
+    AD["O<br>/#124;#92;<br>/ #92;<br>Admin"]
 
     PM -->|"generalisasi"| PG
     PB -->|"generalisasi"| PG
@@ -44,7 +44,7 @@ flowchart LR
     PB --- PEMILIK
     AD --- ADMIN
 
-    classDef actor fill:#121212,stroke:#DDDDDD,color:#EEEEEE,stroke-width:2px
+    classDef actor fill:transparent,stroke:transparent,color:#EEEEEE,font-family:monospace,font-weight:bold
     classDef usecase fill:#1F2D16,stroke:#739A36,color:#EEEEEE
     classDef group fill:#181818,stroke:#4A6324,color:#CCCCCC,stroke-dasharray:4 3
 
