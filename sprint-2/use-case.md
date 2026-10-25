@@ -5,7 +5,7 @@
 ## Diagram
 
 ```mermaid
-%%{init: {"theme": "base", "flowchart": {"curve": "linear", "nodeSpacing": 30, "rankSpacing": 70}, "themeVariables": {"fontFamily": "Arial", "lineColor": "#888888", "edgeLabelBackground": "#121212"}}}%%
+%%{init: {"theme": "base", "flowchart": {"curve": "linear", "nodeSpacing": 25, "rankSpacing": 80}, "themeVariables": {"fontFamily": "Arial", "lineColor": "#888888"}}}%%
 flowchart LR
     PG(["Pengguna"])
     PM(["Peminjam"])
@@ -16,47 +16,40 @@ flowchart LR
     PB -->|"generalisasi"| PG
 
     subgraph SISTEM["Sistem Website PinjamKuy"]
-        subgraph UMUM["Fitur Umum"]
+        direction TB
+        subgraph UMUM["Fitur Pengguna"]
             UC1(["Registrasi"])
-            UC2(["Login"])
-            UC3(["Logout"])
-            UC4(["Lihat Katalog Barang"])
-            UC6(["Lihat Detail Barang"])
-            UC8(["Lihat Riwayat Peminjaman"])
-            UC13(["Chat"])
+            UC2(["Login dan Logout"])
+            UC3(["Lihat dan Cari Barang"])
+            UC4(["Lihat Riwayat Peminjaman"])
+            UC5(["Chat"])
         end
         subgraph PINJAM["Fitur Peminjam"]
-            UC7(["Ajukan Peminjaman"])
-            UC9(["Beri Ulasan dan Rating"])
+            UC6(["Ajukan Peminjaman"])
+            UC7(["Beri Ulasan dan Rating"])
         end
         subgraph PEMILIK["Fitur Pemilik Barang"]
-            UC10(["Tambah dan Kelola Barang"])
-            UC11(["Setujui atau Tolak Pengajuan"])
-            UC12(["Konfirmasi Pengembalian"])
+            UC8(["Kelola Barang"])
+            UC9(["Setujui atau Tolak Pengajuan"])
+            UC10(["Konfirmasi Pengembalian"])
         end
         subgraph ADMIN["Fitur Admin"]
-            UC14(["Kelola Pengguna"])
-            UC15(["Kelola Kategori"])
+            UC11(["Kelola Pengguna"])
+            UC12(["Kelola Kategori"])
         end
-        UC5(["Cari dan Filter Barang"])
     end
 
-    PG --- UC1 & UC2 & UC3 & UC4 & UC6 & UC8 & UC13
-    PM --- UC7 & UC9
-    PB --- UC10 & UC11 & UC12
-    AD --- UC14 & UC15
-
-    UC5 -.->|"«extend»"| UC4
-    UC7 -.->|"«include»"| UC2
-    UC9 -.->|"«include»"| UC2
-    UC10 -.->|"«include»"| UC2
+    PG --- UMUM
+    PM --- PINJAM
+    PB --- PEMILIK
+    AD --- ADMIN
 
     classDef actor fill:#121212,stroke:#DDDDDD,color:#EEEEEE,stroke-width:2px
     classDef usecase fill:#1F2D16,stroke:#739A36,color:#EEEEEE
     classDef group fill:#181818,stroke:#4A6324,color:#CCCCCC,stroke-dasharray:4 3
 
     class PG,PM,PB,AD actor
-    class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8,UC9,UC10,UC11,UC12,UC13,UC14,UC15 usecase
+    class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8,UC9,UC10,UC11,UC12 usecase
     class UMUM,PINJAM,PEMILIK,ADMIN group
     style SISTEM fill:#121212,stroke:#739A36,color:#EEEEEE,stroke-width:2px
 ```
