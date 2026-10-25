@@ -4,7 +4,7 @@
 
 ## Diagram
 
-![Uploading use-case-pinjamkuy.png…]()## Use Case Diagram
+## Use Case Diagram
 
 ![Use Case PinjamKuy](use-case-pinjamkuy.png)
 
