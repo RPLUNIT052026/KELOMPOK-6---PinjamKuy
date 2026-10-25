@@ -4,7 +4,9 @@
 
 ## Diagram
 
-![Uploading use-case-pinjamkuy.png…]()
+![Uploading use-case-pinjamkuy.png…]()## Use Case Diagram
+
+![Use Case PinjamKuy](use-case-pinjamkuy.png)
 
 
 > Mermaid tidak punya diagram use case bawaan, jadi aktor dan use case digambar dengan flowchart. Garis lurus adalah hubungan aktor dengan use case, garis putus-putus adalah relasi `include` dan `extend`.
