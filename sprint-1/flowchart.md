@@ -20,7 +20,6 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-flowchart TD
     A([Mulai]) --> B[Pilih barang]
     B --> C{Tersedia?}
     C -- Tidak --> B
