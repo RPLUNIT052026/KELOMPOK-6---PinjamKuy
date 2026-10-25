@@ -2,8 +2,6 @@
 
 **Tujuan:** memahami tujuan dan interaksi aktor dengan sistem. Use case diagram menunjukkan apa saja yang bisa dilakukan tiap aktor terhadap sistem.
 
-## Diagram
-
 ## Use Case Diagram
 
 ![Use Case PinjamKuy](use-case-pinjamkuy.png)
