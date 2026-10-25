@@ -5,55 +5,88 @@
 ## Diagram
 
 ```mermaid
-flowchart LR
-    PM(["👤 Peminjam"])
-    PB(["👤 Pemilik Barang"])
-    PG(["👤 Pengguna"])
-    AD(["👤 Admin"])
+@startuml
+title Use Case Diagram - PinjamKuy
 
-    PM -->|"adalah"| PG
-    PB -->|"adalah"| PG
+left to right direction
+skinparam backgroundColor #121212
+skinparam shadowing false
+skinparam defaultFontName Arial
+skinparam defaultFontColor #EEEEEE
+skinparam ArrowColor #AAAAAA
+skinparam actor {
+    Color #DDDDDD
+    BorderColor #DDDDDD
+}
+skinparam usecase {
+    BackgroundColor #1F2D16
+    BorderColor #739A36
+    FontColor #EEEEEE
+}
+skinparam rectangle {
+    BorderColor #739A36
+    FontColor #EEEEEE
+}
 
-    subgraph SISTEM["Sistem PinjamKuy"]
-        UC1(["Registrasi"])
-        UC2(["Login"])
-        UC3(["Logout"])
-        UC4(["Lihat Katalog Barang"])
-        UC5(["Cari dan Filter Barang"])
-        UC6(["Lihat Detail Barang"])
-        UC7(["Ajukan Peminjaman"])
-        UC8(["Lihat Riwayat Peminjaman"])
-        UC9(["Beri Ulasan dan Rating"])
-        UC10(["Tambah dan Kelola Barang"])
-        UC11(["Setujui atau Tolak Pengajuan"])
-        UC12(["Konfirmasi Pengembalian"])
-        UC13(["Chat"])
-        UC14(["Kelola Pengguna"])
-        UC15(["Kelola Kategori"])
-    end
+actor "Pengguna" as User
+actor "Peminjam" as Borrower
+actor "Pemilik Barang" as Owner
+actor "Admin" as Admin
 
-    PG --- UC1
-    PG --- UC2
-    PG --- UC3
-    PG --- UC4
-    PG --- UC6
-    PG --- UC8
-    PG --- UC13
+rectangle "Sistem Website PinjamKuy" {
+    usecase "Registrasi" as UC_Register
+    usecase "Login" as UC_Login
+    usecase "Logout" as UC_Logout
+    usecase "Lihat Katalog Barang" as UC_Catalog
+    usecase "Cari dan Filter Barang" as UC_Search
+    usecase "Lihat Detail Barang" as UC_Detail
+    usecase "Lihat Riwayat Peminjaman" as UC_History
+    usecase "Chat" as UC_Chat
 
-    PM --- UC7
-    PM --- UC9
+    usecase "Ajukan Peminjaman" as UC_Request
+    usecase "Beri Ulasan dan Rating" as UC_Review
 
-    PB --- UC10
-    PB --- UC11
-    PB --- UC12
+    usecase "Tambah dan Kelola Barang" as UC_ManageItems
+    usecase "Setujui atau Tolak Pengajuan" as UC_Approve
+    usecase "Konfirmasi Pengembalian" as UC_Return
 
-    AD --- UC14
-    AD --- UC15
+    usecase "Kelola Pengguna" as UC_ManageUsers
+    usecase "Kelola Kategori" as UC_ManageCategories
+}
 
-    UC5 -.->|"extend"| UC4
-    UC7 -.->|"include"| UC2
-    UC10 -.->|"include"| UC2
-    UC9 -.->|"include"| UC2
+' Generalisasi aktor
+Borrower --|> User
+Owner --|> User
+
+' Relasi Pengguna
+User -- UC_Register
+User -- UC_Login
+User -- UC_Logout
+User -- UC_Catalog
+User -- UC_Detail
+User -- UC_History
+User -- UC_Chat
+
+' Relasi Peminjam
+Borrower -- UC_Request
+Borrower -- UC_Review
+
+' Relasi Pemilik Barang
+Owner -- UC_ManageItems
+Owner -- UC_Approve
+Owner -- UC_Return
+
+' Relasi Admin
+Admin -- UC_ManageUsers
+Admin -- UC_ManageCategories
+
+' Relasi include dan extend
+UC_Request ..> UC_Login : <<include>>
+UC_Review ..> UC_Login : <<include>>
+UC_ManageItems ..> UC_Login : <<include>>
+UC_Search ..> UC_Catalog : <<extend>>
+
+@enduml
 ```
 
 > Mermaid tidak punya diagram use case bawaan, jadi aktor dan use case digambar dengan flowchart. Garis lurus adalah hubungan aktor dengan use case, garis putus-putus adalah relasi `include` dan `extend`.
