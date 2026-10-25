@@ -27,13 +27,18 @@ flowchart TD
 flowchart TD
     A([Mulai]) --> B[Pilih barang]
     B --> C{Tersedia?}
-    C -- Tidak --> B
-    C -- Ya --> D[Ajukan pinjam]
+    C --> J1(( ))
+    J1 -- Ya --> D[Ajukan pinjam]
+    J1 -- Tidak --> B
     D --> E{Disetujui pemilik?}
-    E -- Tidak --> F([Selesai])
-    E -- Ya --> G[Pakai dan kembalikan barang]
+    E --> J2(( ))
+    J2 -- Ya --> G[Pakai dan kembalikan barang]
+    J2 -- Tidak --> F([Selesai])
     G --> H[Beri ulasan]
     H --> F
+
+    classDef dot width:8px,height:8px,fill:#888,stroke:#888
+    class J1,J2 dot
 ```
 
 ## 3. Flowchart Pemilik Menambah Barang
@@ -42,9 +47,13 @@ flowchart TD
 flowchart TD
     A([Mulai]) --> B[Isi form barang]
     B --> C{Data lengkap?}
-    C -- Tidak --> B
-    C -- Ya --> D[Simpan dan tampil di katalog]
+    C --> J(( ))
+    J -- Ya --> D[Simpan dan tampil di katalog]
+    J -- Tidak --> B
     D --> E([Selesai])
+
+    classDef dot width:8px,height:8px,fill:#888,stroke:#888
+    class J dot
 ```
 
 ## Keterangan Simbol
