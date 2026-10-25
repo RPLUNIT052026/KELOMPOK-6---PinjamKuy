@@ -5,14 +5,15 @@ Flowchart menggambarkan alur langkah-langkah proses di aplikasi.
 ## 1. Flowchart Registrasi dan Login
 
 ```mermaid
+%%{init: {"flowchart": {"defaultRenderer": "dagre", "curve": "linear"}} }%%
 flowchart TD
     A([Mulai]) --> B{Sudah punya akun?}
+    B -- Sudah --> D[Login]
     B -- Belum --> C[Registrasi]
-    C --> D[Login]
-    B -- Sudah --> D
+    C --> D
     D --> E{Data valid?}
-    E -- Tidak --> D
     E -- Ya --> F[Halaman katalog]
+    E -- Tidak --> D
     F --> G([Selesai])
 ```
 
