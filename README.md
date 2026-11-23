@@ -113,12 +113,12 @@ flowchart LR
 
 <h2 align="center">🗺️ Roadmap</h2>
 
-| Sprint | Target | Status |
-|--------|--------|--------|
-| **Sprint 1** | Perancangan: backlog, arsitektur, ERD, wireframe, flowchart | ✅ Selesai |
-| **Sprint 2** | Registrasi, login, tambah barang, katalog | ⏳ Berikutnya |
-| **Sprint 3** | Pengajuan dan persetujuan peminjaman | ⏳ Rencana |
-| **Sprint 4** | Chat, ulasan, dan finalisasi | ⏳ Rencana |
+| Sprint | Target |
+|--------|--------|
+| **Sprint 1** | Perancangan: backlog, arsitektur, ERD, wireframe, flowchart |
+| **Sprint 2** | Registrasi, login, tambah barang, katalog |
+| **Sprint 3** | Pengajuan dan persetujuan peminjaman |
+| **Sprint 4** | Chat, ulasan, dan finalisasi |
 
 ---
 
